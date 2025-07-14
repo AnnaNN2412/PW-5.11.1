@@ -19,8 +19,8 @@ h1 {
 }
 
 .new {
-background-color: #fff;
-padding: 50px 0 32px;
+    background-color: #fff;
+    padding: 50px 0 32px;
 }
 
 article {
@@ -78,4 +78,13 @@ footer .links>a {
 .copyright {
     color: rgb(108, 117, 125);
     font-family: 'Times New Roman', Times, serif;
+}
+
+article:nth-child(even) {
+    background: rgba(197, 130, 83, 0.4);
+}
+
+.text-new::after {
+    content: "New";
+    color: brown;
 }
