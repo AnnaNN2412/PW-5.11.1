@@ -3,6 +3,16 @@ body {
     padding: 0;
 }
 
+h1 {
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+  color: brown;
+  -webkit-text-stroke: 0.5px burlywood;
+  letter-spacing: 8px;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -10,12 +20,6 @@ header {
     height: 400px;
     background: url(header.jpeg) bottom no-repeat;
     background-size: cover;
-}
-
-h1 {
-    color: brown;
-    font-size: 4rem;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 .new {
@@ -85,6 +89,6 @@ article:nth-child(even) {
 }
 
 .text-new::after {
-    content: "New";
+    content: "New!";
     color: brown;
 }
